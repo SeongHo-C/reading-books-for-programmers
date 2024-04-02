@@ -19,11 +19,11 @@ js 코드 작성
 <details>
 <summary>Table of Contents</summary>
 
-- 다양한 보조기억장치
+- 다양한 보조기억장치[:link:](#다양한-보조기억장치)
   - 하드 디스크[:link:](#하드-디스크)
   - 플래시 메모리[:link:](#플래시-메모리)
-- RAID의 정의와 종류[:link:]
-  - RAID의 정의[:link:]
+- RAID의 정의와 종류[:link:](#raid의-정의와-종류)
+  - RAID의 정의[:link:](#raid의-정의)
   - RAID의 종류[:link:]
   </details>
 
@@ -88,3 +88,10 @@ js 코드 작성
   - 가비지 컬렉션은 유효한 페이지들만을 새로운 블록으로 복사한 뒤, 기존의 블록을 삭제하는 기능이다.
 
   <img width="400" alt="image" src="https://github.com/SeongHo-C/reading-books-for-programmers/assets/83394485/0034f67d-e15c-490d-89af-4d1f8209153a">
+
+### RAID의 정의와 종류
+
+#### RAID의 정의
+
+- 글로벌 IT 기업의 경우 매일 같이 수십, 수백 TB 데이터가 서버로 쏟아지고, 데이터에는 개인 정보, 결제 정보와 같이 절대로 잃어버려서는 안 될 민감한 정보도 포함되어 있다. 이런 정보를 안전하게 관리하기 위해 사용할 수 있는 방법 중 하나가 RAID이다.
+- `RAID(Redundant Array of Independent Disks)`는 주로 하드 디스크와 SSD를 사용하는 기술로, 데이터의 안정성 혹은 높은 성능을 위해 여러 개의 물리적 보조기억장치를 마치 하나의 논리적 보조기억장치처럼 사용하는 기술을 의미한다.
